@@ -3,9 +3,9 @@ import AppReducer from './AppReducer'
 
 const initialState ={
     users: [
-        {id: 1 , name: 'sameera'},
-        {id: 2 , name: 'danushka'},
-        {id: 3 , name: 'peiris'}
+        {id: 1 , name: 'user one'},
+        {id: 2 , name: 'user two'},
+        {id: 3 , name: 'user three'}
     ]
 }
 // Create Context

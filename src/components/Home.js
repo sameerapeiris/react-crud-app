@@ -1,10 +1,14 @@
 import React from 'react'
+import UserList from './UserList'
+import AddUser from './AddUser'
+import Container from 'reactstrap/lib/Container'
 
 const Home = () => {
     return (
-        <div>
-            
-        </div>
+        <Container>
+            <AddUser></AddUser>
+            <UserList></UserList>
+        </Container>
     )
 }
 
